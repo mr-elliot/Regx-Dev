@@ -1,8 +1,8 @@
 # Regx-Dev #
 
-This package is made to developers for saving them time while playing in scraping the information.
+This package is made specially for developers or web scraper's for saving the time while scraping the information.
 
-## Feature's of this project
+# Feature's of this project
 
 * Find's any format of phone number irrespective of the country.
 * Can find links from the string.
@@ -43,4 +43,4 @@ This package is made to developers for saving them time while playing in scrapin
   
   ` result = word_replacer("WORD TO REPLACE", "WORD TO BE REPLACED FOR", "PASS THE STRING") `
 
-  This returns new string with replaced charecter.
+   This returns new string with replaced charecter.
