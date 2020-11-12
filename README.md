@@ -1,6 +1,6 @@
 # Regx-Dev #
 
-This package is made specially for developers or web scraper's for saving the time while scraping the information.
+This package is made especially for developers or web scrapers for saving time while scraping the information.
 
 # Feature's of this project
 
