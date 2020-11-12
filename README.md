@@ -6,28 +6,28 @@ This package is made to developers for saving them time while playing in scrapin
 
 * Find's any format of phone number irrespective of the country.
 * Can find links from the string.
-* Can extract the mail id from string.
+* Can extract the mail id from a string.
 * Removes any links from the string.
-* Return's the index of the matching word present in the string as list.
-* Can replace any word provided with new word.
+* Return's the index of the matching word present in the string as a list.
+* Can replace any word provided with a new word.
 
-# How to install and using it.
+# How to install and use it.
 
 `pip install Regx-Dev`
 
-` from Regx-Dev import Regxdev as rd `
+` from Regx-Dev import regxdev as rd `
 
 * For finding phone number from the string you passed.
 
-  ` result = rd.phone_finder("PASS THE STRNG CONTAINING NUMBEERS") ` returns list of phone numbers 
+  ` result = rd.phone_finder("PASS THE STRING CONTAINING NUMBEERS") ` returns list of phone numbers 
 
-    Note: This method works only if numbers starts with pre-fix '+' and not containing parentheses.
+    Note: This method works only if numbers start with the prefix '+' and not containing parentheses.
 
 * For finding links.
 
   ` result = rd.link_finder("PASS THE STRING") ` returns list of links in the string.
 
-* For extracting mail id's.
+* For extracting mail ids.
   
   ` result = rd.mail_extractor("PASS THE STRING") `
 
@@ -35,14 +35,14 @@ This package is made to developers for saving them time while playing in scrapin
 
   ` result = rd.link_remover("PASS THE STRING") `
 
-* This returns a list of tuple's that is the index of matched word you were searching for in the list.
+* This returns a list of tuples that is the index of a matched word you were searching for in the list.
 
   ` result = rd.word_finder("WORD TO BE FOUND", "PASS THE STRING") `
   
-  Example: when you run the above line you get output similar to ` result = [(2, 5), (11, 14)] ` each item are tuples, which contains start index and end index of the word. you can use this tuple and by slicing the string you will have the word.
+  For example: when you run the above line you get output similar to ` result = [(2, 5), (11, 14)] ` each item are tuples, which contains the start index and end index of the word. you can use this tuple and by slicing the string you will have the word.
 
 * To replace any word from the string irrespective of length.
   
   ` result = rd.word_replacer("WORD TO REPLACE", "WORD TO BE REPLACED FOR", "PASS THE STRING") `
 
-  This returns new string with replaced charecter.
+  This returns a new string with a replaced character.
